@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from './components/hero/hero'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import Skills from './components/skills/Skills';
+import Experince from './components/exeperiance/Experince';
 export default function App() {
+  useEffect(()=>{
+    Aos.init({
+      duration: 1000,
+    });
+  },[]);
   return (
    <main className='bg-[#0d182e]'>
     <Hero/>
+    <Skills/>
+    <Experince/>
    </main>
   )
 }

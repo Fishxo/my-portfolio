@@ -11,7 +11,7 @@ export default function Navbar() {
 
     ];
   return (
-    <header className="text-gray-600 body-font z-10">
+    <header data-aos='fade-up' className="text-gray-600 body-font z-10">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <span className="ml-3 text-3xl font-bold text-white">portfolio</span>
@@ -23,7 +23,7 @@ export default function Navbar() {
         </a>
       ))}
     </nav>
-    <button className='inline-flex items-center py-1 px-7 focus:outline-none text-base text-white mt-4
+    <button className='ml-auto inline-flex items-center py-1 px-7 focus:outline-none text-base text-white mt-4
     md:mt-0 border border-white hover:yellow-300 hover:text-gray-900'>
         <a href="#contact">contact</a>
 
