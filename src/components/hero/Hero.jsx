@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../navbar/navbar'
+import Navbar from '../navbar/Navbar'
 import hi from '../../assets/hi.png.webp';
 import cv from './cv.pdf'
 export default function Hero() {
