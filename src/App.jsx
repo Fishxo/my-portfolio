@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Experince from './components/exeperiance/Experince';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 export default function App() {
   useEffect(()=>{
     Aos.init({
@@ -19,6 +20,7 @@ export default function App() {
     <Experince/>
     <Projects/>
     <Contact/>
+    <Footer/>
    </main>
   )
 }
