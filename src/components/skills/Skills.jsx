@@ -12,7 +12,7 @@ export default function Skills() {
   return (
     <section
       id='skills'
-      className='relative overflow-hidden flex flex-col text-white body-font mt-20'  // <-- mt-16 added here
+      className='relative overflow-hidden flex flex-col text-white body-font mt-20 mb-20'  // <-- mt-16 added here
     >
       <div className='container flex flex-wrap px-5 py-2 mx-auto items-center'>
         <div
