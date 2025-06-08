@@ -10,16 +10,16 @@ import stopwatch from '../../assets/stopwatch.webp';
 export default function Projects() {
   const listProject = [
     {
-      id: 1,image: image1,title: 'Project 1',description: 'This is a simple project I built to practice my frontend and backend skills.',
+      id: 1,image: image1,title: 'Project 1',description: 'This is a calculator simple project I built to practice my frontend and backend skills.',
     },
      {
-      id: 1,image: agecalculater,title: 'Project 1',description: 'This is a simple project I built to practice my frontend and backend skills.',
+      id: 1,image: agecalculater,title: 'Project 2',description: 'This is a simple age calculatore simple project I built to practice my frontend and backend skills.',
     },
      {
-      id: 1,image: digitalclock,title: 'Project 1',description: 'This is a simple project I built to practice my frontend and backend skills.',
+      id: 1,image: digitalclock,title: 'Project 3',description: 'This is a day counter simple project I built to practice my frontend and backend skills.',
     },
      {
-      id: 1,image: stopwatch,title: 'Project 1',description: 'This is a simple project I built to practice my frontend and backend skills.',
+      id: 1,image: stopwatch,title: 'Project 4',description: 'This is a simple set timer project I built to practice my frontend and backend skills.',
     },
     // Add more projects here if needed
   ];
