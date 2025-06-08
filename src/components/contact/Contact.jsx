@@ -15,7 +15,7 @@ export default function Contact() {
                 
             </div>
              <div className='sm:col-span-2'>
-                <label for="email" className='block mb-2 text-xl font-medium text-white'>email</label>
+                <label for="email " className='block mb-2 text-xl font-medium text-white'>comment</label>
                 <textarea
                 rows="6"
                  id='message'
